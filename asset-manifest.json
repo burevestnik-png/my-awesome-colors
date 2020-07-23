@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-awesome-colors/static/css/main.f10b4c01.chunk.css",
+    "main.js": "/my-awesome-colors/static/js/main.12e05136.chunk.js",
+    "main.js.map": "/my-awesome-colors/static/js/main.12e05136.chunk.js.map",
+    "runtime-main.js": "/my-awesome-colors/static/js/runtime-main.ef9823ab.js",
+    "runtime-main.js.map": "/my-awesome-colors/static/js/runtime-main.ef9823ab.js.map",
+    "static/css/2.764ccc25.chunk.css": "/my-awesome-colors/static/css/2.764ccc25.chunk.css",
+    "static/js/2.ef99241e.chunk.js": "/my-awesome-colors/static/js/2.ef99241e.chunk.js",
+    "static/js/2.ef99241e.chunk.js.map": "/my-awesome-colors/static/js/2.ef99241e.chunk.js.map",
+    "index.html": "/my-awesome-colors/index.html",
+    "precache-manifest.a8be5e28a10eec0a0ac8be05da0cbbbb.js": "/my-awesome-colors/precache-manifest.a8be5e28a10eec0a0ac8be05da0cbbbb.js",
+    "service-worker.js": "/my-awesome-colors/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/my-awesome-colors/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.f10b4c01.chunk.css.map": "/my-awesome-colors/static/css/main.f10b4c01.chunk.css.map",
+    "static/js/2.ef99241e.chunk.js.LICENSE.txt": "/my-awesome-colors/static/js/2.ef99241e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef9823ab.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.ef99241e.chunk.js",
+    "static/css/main.f10b4c01.chunk.css",
+    "static/js/main.12e05136.chunk.js"
+  ]
+}
