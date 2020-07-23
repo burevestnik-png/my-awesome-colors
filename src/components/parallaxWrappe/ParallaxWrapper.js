@@ -1,8 +1,8 @@
 import React from "react";
 import {ParallaxBanner, ParallaxProvider} from "react-scroll-parallax/cjs";
-import './Header.css';
+import './ParallaxWrapper.css';
 
-const Header = () =>
+const ParallaxWrapper = () =>
         <ParallaxProvider>
             <ParallaxBanner
                 className="header"
@@ -12,13 +12,13 @@ const Header = () =>
                         amount: 0.4,
                     }
                 ]}
-                // style={{
-                //     margin: '300px auto'
-                // }}
+                style={{
+
+                }}
             >
                 <h1>Yours awesome colors</h1>
             </ParallaxBanner>
         </ParallaxProvider>
 
 
-export default Header;
+export default ParallaxWrapper;
