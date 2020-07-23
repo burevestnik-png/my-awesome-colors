@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.header > h1 {
+  color: black;
+  font-size: 4vw;
+  font-weight: normal;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=Header.css.map */
