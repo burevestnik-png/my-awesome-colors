@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {v4} from "uuid";
 
 import './App.css';
-import Main from "./main/Main";
+import ColorList from "./colorList/ColorList";
 import Header from "./header/Header";
 
 class App extends Component {
@@ -14,6 +14,8 @@ class App extends Component {
         }
 
         this.addColor = this.addColor.bind(this);
+        this.rateColor = this.rateColor.bind(this);
+        this.removeColor = this.removeColor.bind(this);
     }
 
     addColor(title, color) {
@@ -32,13 +34,36 @@ class App extends Component {
         })
     }
 
+    rateColor(id, rating) {
+        const colors = this.state.colors.map(color =>
+            (color.id !== id) ?
+                color :
+                {
+                    ...color,
+                    rating
+                }
+        )
+
+        this.setState({colors})
+    }
+
+    removeColor(id) {
+        const colors = this.state.colors.filter(
+            color => color.id !== id
+        )
+
+        this.setState({colors})
+    }
+
     render() {
-        const {addColor} = this;
+        const {addColor, rateColor, removeColor} = this;
 
         return (
             <div className="App">
                 <Header onNewColor={addColor}/>
-                <Main/>
+                <ColorList colors={this.state.colors}
+                           onRate={rateColor}
+                           onRemove={removeColor}/>
             </div>
         );
     }

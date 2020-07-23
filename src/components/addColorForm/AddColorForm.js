@@ -15,19 +15,19 @@ const AddColorForm = ({onNewColor}) => {
 
     return (
         <div className="AddColorForm">
-            <div className="form-info">
-                <h2 className="animation a1">Welcome</h2>
-                <h4 className="animation a2">Just add your favourite color</h4>
-            </div>
+            <h2 className="animated a1">Welcome</h2>
+            <h4 className="animated a2">Just add your favourite color</h4>
             <form onSubmit={submitAction}>
                 <input type="text"
+                       className="animated a3"
                        ref={instance => _title = instance}
-                       placeholder="color title..." required/>
+                       placeholder="Color title..." required/>
 
                 <input type="color"
+                       className="animated a4"
                        ref={instance => _color = instance} required/>
 
-                <button>Add</button>
+                <button className="animated a5">ADD</button>
             </form>
         </div>
     );

@@ -13,10 +13,11 @@ const ParallaxWrapper = () =>
                     }
                 ]}
                 style={{
-
+                    transition: '1s',
+                    height: '100vh'
                 }}
             >
-                <h1>Yours awesome colors</h1>
+                <h1>Your most liked colors <br/> in one place</h1>
             </ParallaxBanner>
         </ParallaxProvider>
 
