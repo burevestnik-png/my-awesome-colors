@@ -5,10 +5,9 @@
   z-index: 0;
 }
 .header > h1 {
-  color: black;
-  font-size: 4vw;
-  font-weight: normal;
-  z-index: 100;
+  color: white;
+  font-size: 80px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=Header.css.map */
