@@ -6,15 +6,16 @@ import StarRating from "../StarRating/StarRating";
 
 const Color = ({title, color, rating = 0, onRate, onRemove}) =>
     <section className="Color">
+        <div className="card-front"
+             style={{backgroundColor: color}}>
+        </div>
+        <div className="card-back">
             <h1>{title}</h1>
+            <span>Star it:</span>
+            <StarRating starsSelected={rating}
+                        onRate={onRate}/>
             <button onClick={onRemove}>X</button>
-            <div className="color"
-                 style={{backgroundColor: color}}>
-            </div>
-            <div>
-                    <StarRating starsSelected={rating}
-                                onRate={onRate} />
-            </div>
-    </section>;
+        </div>
+    </section>
 
 export default Color;

@@ -8,7 +8,7 @@ const ColorList = ({colors = [], onRate, onRemove}) =>
     <div className="ColorList">
         {
             (colors.length === 0) ?
-                <p>No colors listed. (Just add it)</p> :
+                <NoColors /> :
                 colors.map(color =>
                     <Color
                         key={color.id}
@@ -21,3 +21,8 @@ const ColorList = ({colors = [], onRate, onRemove}) =>
     </div>;
 
 export default ColorList;
+
+const NoColors = () =>
+    <div>
+        <p>No colors listed. (Just add it)</p>
+    </div>

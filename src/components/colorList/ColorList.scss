@@ -1,0 +1,44 @@
+$color2: #80c9dd;
+$color3: #d5eaf0;
+$color1: #62bbd3;
+
+.ColorList {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  column-gap: 30px;
+
+  background:
+          radial-gradient(black 3px, transparent 4px),
+          radial-gradient(black 3px, transparent 4px),
+          linear-gradient(#fff 4px, transparent 0),
+          linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+          linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+          #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    p {
+      background: linear-gradient(to right, #de48b5 0%, #0097ff 100%);
+      width: 50%;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      border-radius: 10px;
+    }
+  }
+}
