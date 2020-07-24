@@ -14,6 +14,7 @@ Stack of technologies:
 - ReactJs
 - npm & yarn
 - Lib react-scroll-parallax
+- Lib react-scroll
 
 [stars-shield]: https://img.shields.io/github/stars/burevestnik-png/my-awesome-colors?style=social
 [stars-url]: https://github.com/burevestnik-png/my-awesome-colors/stargazers
