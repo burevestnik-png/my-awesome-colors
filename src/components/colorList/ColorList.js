@@ -24,5 +24,5 @@ export default ColorList;
 
 const NoColors = () =>
     <div>
-        <p>No colors listed. <br/> (Just add it)</p>
+        <p>No colors listed. <br/> (Just add them)</p>
     </div>
