@@ -1,6 +1,8 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 
 import './AddColorForm.css';
+import arrow from '../../resourses/svg/arrow_to_bottom.svg';
 
 const AddColorForm = ({onNewColor}) => {
     let _title, _color;
@@ -29,8 +31,22 @@ const AddColorForm = ({onNewColor}) => {
 
                 <button className="animated a5">ADD</button>
             </form>
+            <Link activeClass="active"
+                  className="scroll-link"
+                  to="color-list"
+                  spy={true}
+                  smooth={true}
+                  duration={500}>
+                <ArrowWrapper/>
+            </Link>
         </div>
     );
 };
 
 export default AddColorForm;
+
+const ArrowWrapper = () =>
+    <div className="arrow-wrapper">
+        <span className="animated a6">Check out <br/>your library</span>
+        <img className="animated a7" src={arrow} alt="Svg"/>
+    </div>

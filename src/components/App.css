@@ -2,6 +2,7 @@
 :root {
   font-family: "Baloo Da 2", cursive;
   font-size: calc(0.5em + 1vh);
+  user-select: none;
 }
 
 /*# sourceMappingURL=App.css.map */

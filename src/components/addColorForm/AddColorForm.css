@@ -56,6 +56,16 @@
   color: #fff;
   letter-spacing: 1px;
 }
+.AddColorForm .arrow-wrapper {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+  width: 80%;
+  margin-top: 150px;
+  text-align: center;
+}
 
 .animated {
   animation-name: move;
@@ -82,6 +92,14 @@
 
 .a5 {
   animation-delay: 2.4s;
+}
+
+.a6 {
+  animation-delay: 2.5s;
+}
+
+.a7 {
+  animation-delay: 2.6s;
 }
 
 @keyframes move {

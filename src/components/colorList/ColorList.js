@@ -5,7 +5,7 @@ import './ColorList.css';
 import Color from "../color/Color";
 
 const ColorList = ({colors = [], onRate, onRemove}) =>
-    <div className="ColorList">
+    <div className="ColorList" id="color-list">
         {
             (colors.length === 0) ?
                 <NoColors /> :
