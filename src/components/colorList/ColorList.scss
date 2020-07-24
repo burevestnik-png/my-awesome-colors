@@ -11,6 +11,7 @@ $color1: #62bbd3;
   padding-top: 40px;
   padding-bottom: 50px;
   column-gap: 30px;
+  min-height: 100vh;
 
   background:
           radial-gradient(black 3px, transparent 4px),
@@ -33,8 +34,8 @@ $color1: #62bbd3;
 
     p {
       background: linear-gradient(to right, #de48b5 0%, #0097ff 100%);
-      width: 50%;
-      height: 30px;
+      width: 100%;
+      font-size: 1.5em;
       text-align: center;
       line-height: 30px;
       color: white;
